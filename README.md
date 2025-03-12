@@ -1,12 +1,68 @@
-# React + Vite
+## 🎵 Sound Board
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Sound Board** built with **React + Vite** that plays different sound effects at the click of a button.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🚀 Features
 
-## Expanding the ESLint configuration
+✅ Play various sound effects instantly  
+✅ Responsive and user-friendly UI  
+✅ Built with **React** and **Vite** for fast performance  
+✅ Uses local audio files stored in `public/assets/`
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 📂 Project Structure
+
+```
+sound-board/
+│── public/
+│   └── assets/                  # Sound files (MP3)
+│       ├── applause.mp3
+│       ├── boo.mp3
+│       ├── gasp.mp3
+│       ├── tada.mp3
+│       ├── victory.mp3
+│       ├── wrong.mp3
+│── src/
+│   ├── App.jsx                  # Main App component
+│   ├── Soundboard.jsx            # Component for handling sound buttons
+│   ├── Soundboard.css            # Styles for the Soundboard
+│   ├── main.jsx                  # Entry point for React app
+│   ├── index.css                 # Global styles
+│── .gitignore
+│── index.html                    # Main HTML file
+│── package.json                  # Dependencies & scripts
+│── vite.config.js                 # Vite configuration
+│── README.md                     # Project documentation
+```
+
+---
+
+### 📦 Installation & Setup
+
+1️⃣ **Clone the Repository**  
+```sh
+git clone https://github.com/krit-sh/sound-board.git
+cd sound-board
+```
+
+2️⃣ **Install Dependencies**  
+```sh
+npm install
+```
+
+3️⃣ **Run the Development Server**  
+```sh
+npm run dev
+```
+Your app will be live at **http://localhost:5173/**.
+
+---
+
+### 🛠️ Built With
+
+- **React** ⚛️
+- **Vite** ⚡
+- **CSS** 🎨
